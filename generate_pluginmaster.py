@@ -14,7 +14,6 @@ MANIFEST_KEYS = [
     "Description",
     "Tags",
     "InternalName",
-    "RepoUrl",
     "Changelog",
     "AssemblyVersion",
     "ApplicableVersion",
@@ -28,6 +27,7 @@ def main():
     plugins = collect_plugins()
     master = build_master(plugins)
     write_master(master)
+    write_readme(master)
 
 
 def collect_plugins():
@@ -65,6 +65,43 @@ def write_master(master):
     with open("pluginmaster.json", "w", encoding="utf-8") as f:
         json.dump(master, f, indent=4, ensure_ascii=False)
     print(f"Written {len(master)} plugin(s) to pluginmaster.json")
+
+
+def write_readme(master):
+    repo_url = f"https://raw.githubusercontent.com/{REPO}/main/pluginmaster.json"
+
+    rows = []
+    for plugin in master:
+        name = plugin.get("Name", "")
+        punchline = plugin.get("Punchline", plugin.get("Description", ""))
+        version = plugin.get("AssemblyVersion", "")
+        rows.append(f"| {name} | {punchline} | {version} |")
+
+    table = "\n".join(rows) if rows else "| *(no plugins yet)* | | |"
+
+    readme = f"""\
+# Dalamud Plugin Repository
+
+Custom Dalamud plugin repository by [twelvehouse](https://github.com/twelvehouse).
+
+## Setup
+
+Add the following URL to **Dalamud → Settings → Experimental → Custom Plugin Repositories**:
+
+```
+{repo_url}
+```
+
+## Plugins
+
+| Name | Description | Version |
+|------|-------------|---------|
+{table}
+"""
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme)
+    print("Updated README.md")
 
 
 if __name__ == "__main__":
