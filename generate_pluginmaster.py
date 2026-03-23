@@ -73,7 +73,7 @@ def write_readme(master):
     rows = []
     for plugin in master:
         name = plugin.get("Name", "")
-        punchline = plugin.get("Punchline", plugin.get("Description", ""))
+        punchline = plugin.get("Description", plugin.get("Punchline", ""))
         version = plugin.get("AssemblyVersion", "")
         rows.append(f"| {name} | {punchline} | {version} |")
 
