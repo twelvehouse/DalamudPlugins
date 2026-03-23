@@ -1,0 +1,8 @@
+# Reference and unwanted files
+.claude/
+.serena/
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
