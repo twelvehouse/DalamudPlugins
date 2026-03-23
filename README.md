@@ -14,5 +14,5 @@ https://raw.githubusercontent.com/twelvehouse/DalamudPlugins/main/pluginmaster.j
 
 | Name | Description | Version |
 |------|-------------|---------|
-| ChatAnywhere | Chat in FFXIV from your browser anywhere. | 0.1.6.0 |
-| FootIK | Foot IK for FFXIV — feet stay on the ground. | 1.0.0.0 |
+| ChatAnywhere | Host your chat on a web server so you can talk from anywhere. | 0.1.6.0 |
+| FootIK | Real-time foot IK for FFXIV characters. Keeps feet planted naturally on terrain (stairs, slopes, uneven ground) during normal gameplay without requiring GPose or Brio. | 1.0.0.0 |
