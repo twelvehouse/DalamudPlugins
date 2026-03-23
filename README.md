@@ -14,4 +14,4 @@ https://raw.githubusercontent.com/twelvehouse/DalamudPlugins/main/pluginmaster.j
 
 | Name | Description | Version |
 |------|-------------|---------|
-| *(no plugins yet)* | | |
+| FootIK | Foot IK for FFXIV — feet stay on the ground. | 1.0.0.0 |
