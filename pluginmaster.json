@@ -1,6 +1,27 @@
 [
     {
         "Author": "twelvehouse",
+        "Name": "ChatAnywhere",
+        "Punchline": "Chat in FFXIV from your browser anywhere.",
+        "Description": "Host your chat on a web server so you can talk from anywhere.",
+        "Tags": [
+            "chat",
+            "web",
+            "browser",
+            "relay"
+        ],
+        "InternalName": "ChatAnywhere",
+        "AssemblyVersion": "0.1.6.0",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 14,
+        "IconUrl": "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/icon.png",
+        "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1774254141"
+    },
+    {
+        "Author": "twelvehouse",
         "Name": "FootIK",
         "Punchline": "Foot IK for FFXIV — feet stay on the ground.",
         "Description": "Real-time foot IK for FFXIV characters. Keeps feet planted naturally on terrain (stairs, slopes, uneven ground) during normal gameplay without requiring GPose or Brio.",
@@ -17,6 +38,6 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1774253739"
+        "LastUpdate": "1774254141"
     }
 ]
