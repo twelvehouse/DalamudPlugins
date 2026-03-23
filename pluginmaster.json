@@ -18,13 +18,13 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1774254378"
+        "LastUpdate": "1774254579"
     },
     {
         "Author": "twelvehouse",
         "Name": "FootIK",
         "Punchline": "Foot IK for FFXIV — feet stay on the ground.",
-        "Description": "Real-time foot IK for FFXIV characters. Keeps feet planted naturally on terrain (stairs, slopes, uneven ground) during normal gameplay without requiring GPose or Brio.",
+        "Description": "Real-time foot IK for FFXIV characters. Keeps feet planted naturally on terrain (stairs, slopes, uneven ground) during normal gameplay.",
         "Tags": [
             "animation",
             "ik",
@@ -38,6 +38,6 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1774254378"
+        "LastUpdate": "1774254579"
     }
 ]
