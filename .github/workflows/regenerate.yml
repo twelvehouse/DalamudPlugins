@@ -23,12 +23,21 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generate pluginmaster.json
-        run: python generate_pluginmaster.py
-
-      - name: Commit and push
+      - name: Generate and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pluginmaster.json README.md
-          git diff --cached --quiet || git commit -m "chore: regenerate pluginmaster.json" && git pull --rebase && git push
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            python generate_pluginmaster.py
+            git add pluginmaster.json README.md
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+            git commit -m "chore: regenerate pluginmaster.json"
+            git push && exit 0
+            git reset HEAD~1
+            echo "Push failed (attempt $attempt), retrying..."
+          done
+          exit 1
