@@ -70,14 +70,41 @@ def write_master(master):
 def write_readme(master):
     repo_url = f"https://raw.githubusercontent.com/{REPO}/main/pluginmaster.json"
 
-    rows = []
+    sections = []
     for plugin in master:
         name = plugin.get("Name", "")
-        punchline = plugin.get("Description", plugin.get("Punchline", ""))
         version = plugin.get("AssemblyVersion", "")
-        rows.append(f"| {name} | {punchline} | {version} |")
+        punchline = plugin.get("Punchline", "")
+        description = plugin.get("Description", "")
+        icon_url = plugin.get("IconUrl", "")
+        image_urls = plugin.get("ImageUrls", [])
 
-    table = "\n".join(rows) if rows else "| *(no plugins yet)* | | |"
+        # Heading: icon (if available) + name + version
+        if icon_url:
+            heading = f'### <img src="{icon_url}" width="32" alt=""> &nbsp; {name} &nbsp; `v{version}`'
+        else:
+            heading = f"### {name} &nbsp; `v{version}`"
+
+        # Description lines
+        lines = [heading, ""]
+        if punchline:
+            lines.append(punchline)
+        if description and description != punchline:
+            lines.append(description)
+        lines.append("")
+
+        # Preview images (if available)
+        if image_urls:
+            img_tags = "\n  &nbsp;\n  ".join(
+                f'<img src="{url}" width="380" alt="{name} preview">'
+                for url in image_urls
+            )
+            lines.append(f"<p>\n  {img_tags}\n</p>")
+            lines.append("")
+
+        sections.append("\n".join(lines))
+
+    plugins_section = "---\n\n" + "\n---\n\n".join(sections) + "\n---" if sections else "*(no plugins yet)*"
 
     readme = f"""\
 # Dalamud Plugin Repository
@@ -94,9 +121,7 @@ Add the following URL to **Dalamud → Settings → Experimental → Custom Plug
 
 ## Plugins
 
-| Name | Description | Version |
-|------|-------------|---------|
-{table}
+{plugins_section}
 """
 
     with open("README.md", "w", encoding="utf-8") as f:
