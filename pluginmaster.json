@@ -18,7 +18,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1774254579"
+        "LastUpdate": "1774318131"
     },
     {
         "Author": "twelvehouse",
@@ -32,12 +32,12 @@
             "emote"
         ],
         "InternalName": "FootIK",
-        "AssemblyVersion": "1.0.0.0",
+        "AssemblyVersion": "1.1.0.0",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1774254579"
+        "LastUpdate": "1774318131"
     }
 ]
