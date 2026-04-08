@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/twelvehouse/DalamudPlugins/main/pluginmaster.j
 
 ---
 
-### <img src="https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/icon.png" width="32" alt=""> &nbsp; ChatAnywhere &nbsp; `v0.1.12.4`
+### <img src="https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/icon.png" width="32" alt=""> &nbsp; ChatAnywhere &nbsp; `v0.1.13.0`
 
 Chat in FFXIV from your browser anywhere.
 Host your chat on a web server so you can talk from anywhere.
