@@ -3,7 +3,7 @@
         "Author": "twelvehouse",
         "Name": "ChatAnywhere",
         "Punchline": "Chat in FFXIV from your browser anywhere.",
-        "Description": "Host your chat on a web server so you can talk from anywhere.\n\nNote: Plugin icon was generated using AI (Google Gemini).",
+        "Description": "Host your chat on a web server so you can talk from anywhere.",
         "Tags": [
             "chat",
             "web",
@@ -11,10 +11,9 @@
             "relay"
         ],
         "InternalName": "ChatAnywhere",
-        "AssemblyVersion": "0.1.13.1",
+        "AssemblyVersion": "0.1.13.2",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
-        "IconUrl": "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/icon.png",
         "ImageUrls": [
             "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/image1.png",
             "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/image2.png"
@@ -22,7 +21,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1776117543"
+        "LastUpdate": "1776122256"
     },
     {
         "Author": "twelvehouse",
@@ -42,6 +41,6 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1776117543"
+        "LastUpdate": "1776122256"
     }
 ]
