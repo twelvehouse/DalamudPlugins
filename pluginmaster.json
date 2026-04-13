@@ -11,9 +11,10 @@
             "relay"
         ],
         "InternalName": "ChatAnywhere",
-        "AssemblyVersion": "0.1.13.2",
+        "AssemblyVersion": "0.1.13.3",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
+        "IconUrl": "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/icon.png",
         "ImageUrls": [
             "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/image1.png",
             "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/image2.png"
@@ -21,7 +22,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1776122256"
+        "LastUpdate": "1776123778"
     },
     {
         "Author": "twelvehouse",
@@ -41,6 +42,6 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1776122256"
+        "LastUpdate": "1776123778"
     }
 ]
