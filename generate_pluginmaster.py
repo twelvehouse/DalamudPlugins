@@ -43,6 +43,10 @@ def collect_plugins():
             continue
         with ZipFile(zip_path) as z:
             manifest = json.loads(z.read(f"{name}.json").decode("utf-8"))
+        metadata_path = os.path.join(plugins_root, name, "metadata.json")
+        if os.path.exists(metadata_path):
+            with open(metadata_path, encoding="utf-8") as f:
+                manifest.update(json.load(f))
         result.append((name, zip_path, manifest))
 
     return result
