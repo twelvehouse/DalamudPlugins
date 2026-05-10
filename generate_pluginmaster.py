@@ -20,6 +20,7 @@ MANIFEST_KEYS = [
     "DalamudApiLevel",
     "IconUrl",
     "ImageUrls",
+    "Notice",
 ]
 
 
@@ -83,14 +84,19 @@ def write_readme(master):
         icon_url = plugin.get("IconUrl", "")
         image_urls = plugin.get("ImageUrls", [])
 
-        # Heading: icon (if available) + name + version
+        notice = plugin.get("Notice", "")
+
+        # Heading: icon (if available) + name + version (struck through if notice present)
+        ver_str = f"~~`v{version}`~~" if notice else f"`v{version}`"
         if icon_url:
-            heading = f'### <img src="{icon_url}" width="32" alt=""> &nbsp; {name} &nbsp; `v{version}`'
+            heading = f'### <img src="{icon_url}" width="32" alt=""> &nbsp; {name} &nbsp; {ver_str}'
         else:
-            heading = f"### {name} &nbsp; `v{version}`"
+            heading = f"### {name} &nbsp; {ver_str}"
 
         # Description lines
         lines = [heading, ""]
+        if notice:
+            lines += [f"> **{notice}**", ""]
         if punchline:
             lines.append(punchline)
         if description and description != punchline:
