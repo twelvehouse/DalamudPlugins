@@ -3,5 +3,6 @@
     "ImageUrls": [
         "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/image1.png",
         "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/image2.png"
-    ]
+    ],
+    "Notice": "This plugin is now available on the official Dalamud plugin repository. Distribution via this custom repository has ended. Please install it through the official repository instead."
 }

@@ -19,10 +19,11 @@
             "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/image1.png",
             "https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/image2.png"
         ],
+        "Notice": "This plugin is now available on the official Dalamud plugin repository. Distribution via this custom repository has ended. Please install it through the official repository instead.",
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1778429626"
+        "LastUpdate": "1778429548"
     },
     {
         "Author": "twelvehouse",
@@ -39,9 +40,10 @@
         "AssemblyVersion": "1.1.0.0",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
+        "Notice": "This plugin is no longer maintained and has been archived. Distribution has ended.",
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1778429626"
+        "LastUpdate": "1774318213"
     }
 ]
