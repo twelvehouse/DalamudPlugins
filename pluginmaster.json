@@ -1,5 +1,27 @@
 [
     {
+        "Author": "Minmoose, Asgard and Contributors",
+        "Name": "Brio",
+        "Punchline": "Enhanced GPosing! A utility for improving the G-Pose experience in FFXIV.",
+        "Description": "Brio is suite of tools that gives you advanced control to edit and pose actors during GPose.\n- Advanced actor posing \n\t- While animating\n\t- While animating\n\t- Overlay and graphical posing modes\n- Creation of up to 239 G-Pose actors\n- Creation of custom lights\n- Supports integration with Penumbra & Glamourer\n- Offline import and export of MCDF files onto G-Pose actors\n- Play XAT .xcp camera files\n- Play/Blend animations of GPose actors\n- Control Time/Weather in both the Overworld and GPose\n- Change the active festivals and apply up to 4 at once\n- Add/Remove Status Effects of GPose actors",
+        "Tags": [
+            "gpose",
+            "brio",
+            "posing",
+            "animation"
+        ],
+        "InternalName": "Brio",
+        "Changelog": "",
+        "AssemblyVersion": "0.7.3.0",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 15,
+        "IconUrl": "https://raw.githubusercontent.com/Etheirys/Brio/main/Resources/Images/BrioIcon.png",
+        "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/Brio/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/Brio/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1779588003"
+    },
+    {
         "Author": "twelvehouse",
         "Name": "ChatAnywhere",
         "Punchline": "Chat in FFXIV from your browser anywhere.",
@@ -23,7 +45,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1778429913"
+        "LastUpdate": "1779588003"
     },
     {
         "Author": "twelvehouse",
@@ -44,6 +66,6 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1778429913"
+        "LastUpdate": "1779588003"
     }
 ]
