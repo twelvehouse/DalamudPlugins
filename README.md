@@ -14,6 +14,26 @@ https://raw.githubusercontent.com/twelvehouse/DalamudPlugins/main/pluginmaster.j
 
 ---
 
+### <img src="https://raw.githubusercontent.com/Etheirys/Brio/main/Resources/Images/BrioIcon.png" width="32" alt=""> &nbsp; Brio &nbsp; `v0.7.3.0`
+
+Enhanced GPosing! A utility for improving the G-Pose experience in FFXIV.
+Brio is suite of tools that gives you advanced control to edit and pose actors during GPose.
+- Advanced actor posing 
+	- While animating
+	- While animating
+	- Overlay and graphical posing modes
+- Creation of up to 239 G-Pose actors
+- Creation of custom lights
+- Supports integration with Penumbra & Glamourer
+- Offline import and export of MCDF files onto G-Pose actors
+- Play XAT .xcp camera files
+- Play/Blend animations of GPose actors
+- Control Time/Weather in both the Overworld and GPose
+- Change the active festivals and apply up to 4 at once
+- Add/Remove Status Effects of GPose actors
+
+---
+
 ### <img src="https://raw.githubusercontent.com/twelvehouse/ChatAnywhere/main/images/icon.png" width="32" alt=""> &nbsp; ChatAnywhere &nbsp; ~~`v1.0.0.0`~~
 
 > **This plugin is now available on the official Dalamud plugin repository. Distribution via this custom repository has ended. Please install it through the official repository instead.**
