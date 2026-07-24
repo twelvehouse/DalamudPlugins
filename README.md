@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/twelvehouse/DalamudPlugins/main/pluginmaster.j
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Etheirys/Brio/main/Resources/Images/BrioIcon.png" width="32" alt=""> &nbsp; Brio &nbsp; `v0.7.3.0`
+### <img src="https://raw.githubusercontent.com/Etheirys/Brio/main/Resources/Images/BrioIcon.png" width="32" alt=""> &nbsp; Brio &nbsp; `v0.8.0.11`
 
 Enhanced GPosing! A utility for improving the G-Pose experience in FFXIV.
 Brio is suite of tools that gives you advanced control to edit and pose actors during GPose.
