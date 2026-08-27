@@ -49,6 +49,13 @@ Host your chat on a web server so you can talk from anywhere.
 
 ---
 
+### ChatInputSoftWrap &nbsp; `v1.0.0.0`
+
+Soft-wraps the chat input box.
+Soft-wraps the chat input box, growing it to fit.
+
+---
+
 ### FootIK &nbsp; ~~`v1.1.0.0`~~
 
 > **This plugin is no longer maintained and has been archived. Distribution has ended.**
