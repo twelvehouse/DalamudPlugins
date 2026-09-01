@@ -19,7 +19,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/Brio/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/Brio/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1788273307"
+        "LastUpdate": "1788298117"
     },
     {
         "Author": "twelvehouse",
@@ -45,7 +45,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1788273307"
+        "LastUpdate": "1788298117"
     },
     {
         "Author": "twelvehouse",
@@ -59,13 +59,13 @@
             "wrap"
         ],
         "InternalName": "ChatInputSoftWrap",
-        "AssemblyVersion": "1.1.1.0",
+        "AssemblyVersion": "1.1.2.0",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatInputSoftWrap/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatInputSoftWrap/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1788273307"
+        "LastUpdate": "1788298117"
     },
     {
         "Author": "twelvehouse",
@@ -86,6 +86,6 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1788273307"
+        "LastUpdate": "1788298117"
     }
 ]
