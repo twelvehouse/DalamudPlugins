@@ -49,7 +49,7 @@ Host your chat on a web server so you can talk from anywhere.
 
 ---
 
-### ChatInputSoftWrap &nbsp; `v1.1.0.0`
+### ChatInputSoftWrap &nbsp; `v1.1.1.0`
 
 Soft-wraps the chat input box.
 Soft-wraps the chat input box, growing it to fit.
