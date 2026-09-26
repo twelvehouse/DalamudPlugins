@@ -54,6 +54,10 @@ Host your chat on a web server so you can talk from anywhere.
 Soft-wraps the chat input box.
 Soft-wraps the chat input box, growing it to fit.
 
+<p>
+  <img src="https://raw.githubusercontent.com/twelvehouse/ChatInputSoftWrap/main/preview.png" width="380" alt="ChatInputSoftWrap preview">
+</p>
+
 ---
 
 ### FootIK &nbsp; ~~`v1.1.0.0`~~
