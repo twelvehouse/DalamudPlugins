@@ -24,11 +24,17 @@ MANIFEST_KEYS = [
 ]
 
 
+# metadata.json keys that only affect README.md and never reach pluginmaster.json.
+# ReadmeImageUrls is for previews Dalamud's installer would reject (larger than 730x380, or animated).
+README_ONLY_KEYS = ["ReadmeImageUrls"]
+
+
 def main():
     plugins = collect_plugins()
     master = build_master(plugins)
     write_master(master)
-    write_readme(master)
+    readme_extras = [{k: manifest[k] for k in README_ONLY_KEYS if k in manifest} for _, _, manifest in plugins]
+    write_readme(master, readme_extras)
 
 
 def collect_plugins():
@@ -72,17 +78,17 @@ def write_master(master):
     print(f"Written {len(master)} plugin(s) to pluginmaster.json")
 
 
-def write_readme(master):
+def write_readme(master, readme_extras):
     repo_url = f"https://raw.githubusercontent.com/{REPO}/main/pluginmaster.json"
 
     sections = []
-    for plugin in master:
+    for plugin, extras in zip(master, readme_extras):
         name = plugin.get("Name", "")
         version = plugin.get("AssemblyVersion", "")
         punchline = plugin.get("Punchline", "")
         description = plugin.get("Description", "")
         icon_url = plugin.get("IconUrl", "")
-        image_urls = plugin.get("ImageUrls", [])
+        image_urls = extras.get("ReadmeImageUrls") or plugin.get("ImageUrls", [])
 
         notice = plugin.get("Notice", "")
 
