@@ -68,3 +68,14 @@ Foot IK for FFXIV — feet stay on the ground.
 Real-time foot IK for FFXIV characters. Keeps feet planted naturally on terrain (stairs, slopes, uneven ground) during normal gameplay.
 
 ---
+
+### MixArmoireIntoDresser &nbsp; `v0.1.0.0`
+
+Armoire items in the glamour dresser.
+Lists your armoire items in the glamour dresser while editing glamour plates, so you can build plates without switching to the armoire.
+
+<p>
+  <img src="https://raw.githubusercontent.com/twelvehouse/MixArmoireIntoDresser/main/.github/img/preview.gif" width="380" alt="MixArmoireIntoDresser preview">
+</p>
+
+---
