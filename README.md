@@ -79,3 +79,10 @@ Lists your armoire items in the glamour dresser while editing glamour plates, so
 </p>
 
 ---
+
+### Near Camera Visible &nbsp; `v0.1.0.0`
+
+Stop your character and mount from vanishing when the camera is close while mounted.
+While mounted, the game hides your character and mount when the camera gets too close. This plugin turns that off so they stay visible up close, which is handy for close-up screenshots. First-person view is left as is.
+
+---

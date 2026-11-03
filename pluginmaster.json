@@ -19,7 +19,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/Brio/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/Brio/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1790381687"
+        "LastUpdate": "1793684611"
     },
     {
         "Author": "twelvehouse",
@@ -45,7 +45,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatAnywhere/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1790381687"
+        "LastUpdate": "1793684611"
     },
     {
         "Author": "twelvehouse",
@@ -68,7 +68,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatInputSoftWrap/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/ChatInputSoftWrap/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1790381687"
+        "LastUpdate": "1793684611"
     },
     {
         "Author": "twelvehouse",
@@ -89,7 +89,7 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/FootIK/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1790381687"
+        "LastUpdate": "1793684611"
     },
     {
         "Author": "twelvehouse",
@@ -109,6 +109,26 @@
         "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/MixArmoireIntoDresser/latest.zip",
         "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/MixArmoireIntoDresser/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1790381687"
+        "LastUpdate": "1793684611"
+    },
+    {
+        "Author": "twelvehouse",
+        "Name": "Near Camera Visible",
+        "Punchline": "Stop your character and mount from vanishing when the camera is close while mounted.",
+        "Description": "While mounted, the game hides your character and mount when the camera gets too close. This plugin turns that off so they stay visible up close, which is handy for close-up screenshots. First-person view is left as is.",
+        "Tags": [
+            "camera",
+            "mount",
+            "screenshot",
+            "gpose"
+        ],
+        "InternalName": "NearCameraVisible",
+        "AssemblyVersion": "0.1.0.0",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 15,
+        "DownloadLinkInstall": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/NearCameraVisible/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/twelvehouse/DalamudPlugins/raw/main/plugins/NearCameraVisible/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1793684611"
     }
 ]
